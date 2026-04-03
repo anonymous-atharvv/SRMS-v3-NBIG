@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NBIG" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#00f2ff</item>
+        <item name="android:statusBarColor">#05070a</item>
+        <item name="android:navigationBarColor">#05070a</item>
+        <item name="android:windowBackground">#05070a</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+com.busiq.app.test.app-androidTest-0 /home/elliot/TRIAL/busiq-v2/android-kotlin/app/build/generated/res/resValues/androidTest/debug
+com.busiq.app.test.app-mergeDebugAndroidTestResources-1 /home/elliot/TRIAL/busiq-v2/android-kotlin/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.busiq.app.test.app-mergeDebugAndroidTestResources-2 /home/elliot/TRIAL/busiq-v2/android-kotlin/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.busiq.app.test.app-merged_res-3 /home/elliot/TRIAL/busiq-v2/android-kotlin/app/build/intermediates/merged_res/debugAndroidTest

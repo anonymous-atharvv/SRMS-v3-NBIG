@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.busiq.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:6:5-79
+13-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:7:5-81
+14-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <permission
+16-->[androidx.core:core:1.10.1] /home/elliot/.gradle/caches/transforms-3/05c3a2fb8fbb46b5af8595a8a22c658a/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+17        android:name="com.busiq.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.10.1] /home/elliot/.gradle/caches/transforms-3/05c3a2fb8fbb46b5af8595a8a22c658a/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.10.1] /home/elliot/.gradle/caches/transforms-3/05c3a2fb8fbb46b5af8595a8a22c658a/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.busiq.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.10.1] /home/elliot/.gradle/caches/transforms-3/05c3a2fb8fbb46b5af8595a8a22c658a/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.10.1] /home/elliot/.gradle/caches/transforms-3/05c3a2fb8fbb46b5af8595a8a22c658a/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:9:5-25:19
+23        android:allowBackup="true"
+23-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.10.1] /home/elliot/.gradle/caches/transforms-3/05c3a2fb8fbb46b5af8595a8a22c658a/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:label="NBIG Offline"
+27-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:11:9-37
+28        android:supportsRtl="true"
+28-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.NBIG"
+30-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:13:9-42
+31        android:usesCleartextTraffic="true" >
+31-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:14:9-44
+32        <activity
+32-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:15:9-24:20
+33            android:name="com.busiq.app.MainActivity"
+33-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:16:13-41
+34            android:configChanges="orientation|screenSize"
+34-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:18:13-59
+35            android:exported="true"
+35-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:17:13-36
+36            android:hardwareAccelerated="true" >
+36-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:19:13-47
+37            <intent-filter>
+37-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:21:17-69
+38-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:22:17-77
+40-->/home/elliot/TRIAL/busiq-v2/android-kotlin/app/src/main/AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+46            android:authorities="com.busiq.app.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] /home/elliot/.gradle/caches/transforms-3/52779c51b3e9f1fcecde27ae0c0908a7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/elliot/.gradle/caches/transforms-3/e6b50a56bbdb9f5bd28a8e69c8d28438/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/elliot/.gradle/caches/transforms-3/e6b50a56bbdb9f5bd28a8e69c8d28438/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/elliot/.gradle/caches/transforms-3/e6b50a56bbdb9f5bd28a8e69c8d28438/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
